@@ -18,3 +18,14 @@ body {
   margin-right: 10%;
 }
 
+h1 {
+  margin-top: 20%;
+  font-size: 3em;
+  padding-bottom: 4%;
+}
+
+h3 {
+  text-align: justify;
+  padding-bottom: 2.5%;
+}
+
