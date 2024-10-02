@@ -1,0 +1,20 @@
+@font-face {
+  font-family: cromwell_revival_002;
+  src: url(../fonts/Cromwell_Revival_002.glyphs);
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cromwell_revival_002;
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
