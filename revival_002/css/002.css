@@ -34,6 +34,12 @@ body {
 #rightSide {
   width: 50%;
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+#lrsParent {
+  display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
@@ -51,20 +57,45 @@ h1 {
  
 }
 
-h3 {
-  text-align: justify;
-  padding-bottom: 2.5%;
+h3, h4, h5 {
+  text-align: center;
+  padding: 0;
+  /* padding-bottom: 2.5%; */
 }
 
 #refulgent {
-  font-size: 48px;
+  font-size: 48pt;
 }
 #municipality {
-  font-size: 36px;
+  font-size: 36pt;
 }
 #haughty {
-  font-size: 30px;
+  font-size: 30pt;
 }
+.stereo {
+  font-size: 24pt;
+}
+.number {
+  font-size: 18pt;
+}
+.imposing {
+  font-size: 14pt;
+}
+
+.kindergarten {
+  font-size: 12pt;
+}
+
+.summer {
+  font-size: 10pt;
+}
+.bohemian {
+  font-size: 8pt;
+}
+.exclusive {
+  font-size: 6pt;
+}
+
 
 footer {
  margin-top: 5%;
