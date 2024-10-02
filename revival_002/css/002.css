@@ -31,6 +31,10 @@ body {
   width: 100%;
 }
 
+#cromwellPage:hover {
+  display: none;
+}
+
 #rightSide {
   width: 50%;
   display: flex;
@@ -42,6 +46,16 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+
+#leftRightSide {
+  width: 50%;
+  padding: 1%;
+}
+
+#rightRightSide {
+  width: 50%;
+  padding: 1%;
 }
 
 
@@ -59,8 +73,7 @@ h1 {
 
 h3, h4, h5 {
   text-align: center;
-  padding: 0;
-  /* padding-bottom: 2.5%; */
+
 }
 
 #refulgent {
@@ -94,6 +107,10 @@ h3, h4, h5 {
 }
 .exclusive {
   font-size: 6pt;
+}
+
+p {
+  margin-bottom: 1%;
 }
 
 
