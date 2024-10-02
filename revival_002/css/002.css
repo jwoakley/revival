@@ -3,8 +3,6 @@
   src: url(../../fonts/Cromwell_Revival_002.glyphs);
 }
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +12,37 @@
 body {
   font-family: cromwell_revival_002;
 
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
+
+#contentBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#leftSide {
+  width: 50%;
+}
+
+#cromwellPage {
+  width: 100%;
+}
+
+#rightSide {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+
+
+
+
+
 
 h1 {
   margin-top: 20%;
@@ -28,6 +54,16 @@ h1 {
 h3 {
   text-align: justify;
   padding-bottom: 2.5%;
+}
+
+#refulgent {
+  font-size: 48px;
+}
+#municipality {
+  font-size: 36px;
+}
+#haughty {
+  font-size: 30px;
 }
 
 footer {
