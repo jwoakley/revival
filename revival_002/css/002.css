@@ -21,6 +21,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+  padding-top: 5%;
 }
 
 #leftSide {
@@ -28,7 +29,8 @@ body {
 }
 
 #cromwellPage {
-  width: 100%;
+  width: 75%;
+
 }
 
 #cromwellPage:hover {
@@ -40,6 +42,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+
 }
 
 #lrsParent {
@@ -111,6 +114,9 @@ h3, h4, h5 {
 
 p {
   margin-bottom: 1%;
+}
+.pjustify {
+  text-align: justify;
 }
 
 
