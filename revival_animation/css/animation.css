@@ -1,0 +1,168 @@
+@font-face {
+  font-family: cr_001;
+  src: url(../../fonts/Cromwell_Revival_001-Regular.ttf);
+}
+
+@font-face {
+  font-family: cr_002;
+  src: url(../../fonts/Cromwell_Revival_002-Regular.otf);
+}
+
+@font-face {
+  font-family: cr_003;
+  src: url(../../fonts/Cromwell_Revival_003-Regular.ttf);
+}
+
+@font-face {
+  font-family: cr_004;
+  src: url(../../fonts/Cromwell_Revival_004-Regular.otf);
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  position: relative;
+
+  font-family: cr_004;
+  background-color: black;
+  color: white;
+}
+
+#movingText {
+ margin-top: 20%; 
+ text-align: center;
+ /* /* font-size: 6em; */
+}
+
+#R {
+  animation-name: fontCycle;
+  animation-duration: 20s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: ease-in-out;
+  -webkit-animation: ;
+}
+#E {
+  animation-name: fontCycle;
+  animation-duration: 20s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation: ;
+}
+#V {
+  animation-name: fontCycle;
+  animation-duration: 20s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  -webkit-animation: ;
+}
+#I {
+  animation-name: fontCycle;
+  animation-duration: 20s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation: ;
+}
+#V2 {
+  animation-name: fontCycle;
+  animation-duration: 20s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  -webkit-animation: ;
+}
+#A {
+  animation-name: fontCycle;
+  animation-duration: 20s;
+  animation-delay: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation: ;
+}
+#L {
+  animation-name: fontCycle;
+  animation-duration: 20s;
+  animation-delay: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  -webkit-animation: ;
+}
+
+#cr01 {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 3em;
+  font-family: cr_001;
+}
+#cr02 {
+  /* margin-top: 10%; */
+  text-align: center;
+  font-size: 3em;
+  font-family: cr_002;
+}
+#cr03 {
+  /* margin-top: 10%; */
+  text-align: center;
+  font-size: 3em;
+  font-family: cr_003;
+}
+#cr04 {
+  /* margin-top: 10%; */
+  text-align: center;
+  font-size: 3em;
+  font-family: cr_004;
+}
+
+
+
+
+
+
+
+footer {
+  position: fixed;
+  bottom: 1%;
+  width: 100%;
+
+}
+
+a {
+  text-decoration: none;
+  padding-right: 2.5%;
+}
+
+@keyframes fontCycle {
+
+  25% {
+    font-family: cr_001;
+    font-size: 4em;
+  }
+  50% {
+    font-family: cr_002;
+    font-size: 4.5em;
+    text-transform: lowercase;
+  }
+  75% {
+    font-family: cr_003;
+    font-size: 5em;
+    text-transform: capitalize;
+  }
+  100% {
+    font-family: cr_004;
+    font-size: 5.5em;
+    text-transform: uppercase;
+  }
+}
+
