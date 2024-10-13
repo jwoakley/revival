@@ -1,6 +1,21 @@
 @font-face {
-  font-family: cromwell_revival_002;
-  src: url(../fonts/Cromwell_Revival_002.glyphs);
+  font-family: cr_001;
+  src: url(../../fonts/Cromwell_Revival_001-Regular.ttf);
+}
+
+@font-face {
+  font-family: cr_002;
+  src: url(../../fonts/Cromwell_Revival_002-Regular.otf);
+}
+
+@font-face {
+  font-family: cr_003;
+  src: url(../../fonts/Cromwell_Revival_003-Regular.ttf);
+}
+
+@font-face {
+  font-family: cr_004;
+  src: url(../../fonts/Cromwell_Revival_004-Regular.otf);
 }
 
 
@@ -12,7 +27,7 @@
 }
 
 body {
-  font-family: cromwell_revival_002;
+  font-family: cr_002;
 
   margin-left: 10%;
   margin-right: 10%;
