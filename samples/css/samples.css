@@ -1,0 +1,61 @@
+@font-face {
+  font-family: cr_001;
+  src: url(../../fonts/Cromwell_Revival_001-Regular.ttf);
+}
+
+@font-face {
+  font-family: cr_002;
+  src: url(../../fonts/Cromwell_Revival_002-Regular.otf);
+}
+
+@font-face {
+  font-family: cr_003;
+  src: url(../../fonts/Cromwell_Revival_003-Regular.ttf);
+}
+
+@font-face {
+  font-family: cr_004;
+  src: url(../../fonts/Cromwell_Revival_004-Regular.otf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  width: 80%;
+  margin: auto;
+  font-family: cr_004;
+  background-color: black;
+  color: whitesmoke;
+
+}
+
+#R1, #E1, #V1, #I1, #V21, #A1, #L1 {
+  font-size: 6em;
+  font-family: cr_001;
+  padding-right: 3%;
+}
+
+#R2, #E2, #V2, #I2, #V22, #A2, #L2 {
+  font-size: 6em;
+  font-family: cr_002;
+  padding-right: 3%;
+}
+
+#R3, #E3, #V3, #I3, #V23, #A3, #L3 {
+  font-size: 6em;
+  font-family: cr_003;
+  padding-right: 3%;
+}
+
+#R4, #E4, #V4, #I4, #V24, #A4, #L4 {
+  font-size: 6em;
+  font-family: cr_004;
+  padding-right: 3%;
+}
+
