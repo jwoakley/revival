@@ -3,13 +3,6 @@
   src: url(../fonts/Cromwell_Revival_004-Regular.otf);
 }
 
-@font-face {
-  font-family: cr_001;
-  src: url(../fonts/Cromwell_Revival_001-Regular.ttf);
-}
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -17,33 +10,93 @@
 }
 
 body {
+  background-color: black;
+  color: white;
   font-family: cr_004;
-  margin-left: 10%;
-  margin-right: 10%;
+  text-align: center;
 }
 
-h1 {
+
+#text-box{
   margin-top: 20%;
-  font-size: 7em;
-  letter-spacing: .0125em;
+  font-size: 6em;
   padding-bottom: 4%;
-
-  
+  padding-right: -50px;
 }
 
-
-
-h3 {
-  text-align: justify;
-  padding-bottom: 2.5%;
-}
-
-footer {
- margin-top: 5%;
-}
-
-a {
+#enter {
+  -webkit-text-stroke-width: .25px;
+  -webkit-text-stroke-color: white;
   text-decoration: none;
-  padding-right: 2.5%;
+  letter-spacing: .125em;
 }
 
+ span{
+  animation: mover 7s linear infinite;
+  display: inline-block;
+  color:black;
+  /*font-weight: bolder;
+  */:;
+  -webkit-animation: mover 7s linear infinite;
+}
+
+
+@keyframes mover
+{
+  0%{
+      text-shadow: 0 5px 0 rgba(255, 255, 255, 0);
+    }
+  25% {
+    text-shadow: 5px, 0, 5px rgba(255, 255, 255, .5)
+  }  
+  50%{
+      text-shadow: 0 5px 0 rgba(255, 255, 255, .25);
+      transform: translateY(30px);
+    }
+  75% {
+    text-shadow: 5px 0 5px rgba(255, 255, 255, .5);
+  }
+  }  
+  100%
+    {
+      text-shadow: 0 5px 0 rgba(255, 255, 255, .25)
+    }
+
+span:nth-child(1)
+{
+  animation-delay: 0.25s;
+}
+span:nth-child(2)
+{
+  animation-delay: ..75s;
+}
+span:nth-child(3)
+{
+  animation-delay: 1.25s;
+}
+span:nth-child(4)
+{
+  animation-delay: 1.75s;
+}
+span:nth-child(5)
+{
+  animation-delay: 2.25s;
+}
+span:nth-child(6)
+{
+  animation-delay: 2.75s;
+}
+span:nth-child(7)
+{
+  animation-delay: 3.25s;
+}
+
+/* adapted from https://www.youtube.com/watch?v=ti2gMn6U0Ts&t=208s */
+
+
+
+
+
+
+
+ */
