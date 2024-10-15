@@ -14,29 +14,36 @@ body {
   color: white;
   font-family: cr_004;
   text-align: center;
+
 }
 
 
 #text-box{
-  margin-top: 20%;
+  margin-top: 10%;
   font-size: 6em;
   padding-bottom: 4%;
   padding-right: -50px;
 }
 
 #enter {
-  -webkit-text-stroke-width: .25px;
-  -webkit-text-stroke-color: white;
+  color: black;
   text-decoration: none;
-  letter-spacing: .125em;
+  letter-spacing: .25em;
+  animation-name: enter;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+
+  padding-top: 50%;
+
 }
 
  span{
   animation: mover 7s linear infinite;
   display: inline-block;
   color:black;
-  /*font-weight: bolder;
-  */:;
   -webkit-animation: mover 7s linear infinite;
 }
 
@@ -91,7 +98,26 @@ span:nth-child(7)
   animation-delay: 3.25s;
 }
 
-/* adapted from https://www.youtube.com/watch?v=ti2gMn6U0Ts&t=208s */
+@keyframes enter {
+  0% {
+    color: rgb(0,0,0);
+  }
+  25% {
+    color: rgba(0,0,0, .75);
+  }
+  50% {
+    color: rgba(0,0,0, .5);
+  }
+  75% {
+    color: rgba(0,0,0, .25)
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+
+}
+
+/* mover animation adapted from https://www.youtube.com/watch?v=ti2gMn6U0Ts&t=208s */
 
 
 
@@ -99,4 +125,4 @@ span:nth-child(7)
 
 
 
- */
+
